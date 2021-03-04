@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Grid Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Complete the HTML here -->
+<h1>The Batman Trilogy</h1>
+<div class="container">
+  <div class="row">
+    <div class="column">
+      <img src="https://m.media-amazon.com/images/M/MV5BOTY4YjI2N2MtYmFlMC00ZjcyLTg3YjEtMDQyM2ZjYzQ5YWFkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg" alt="Batman Begins" width="100%">
+      <h3>Batman Begins</h3>
+      <p>A young Bruce Wayne travels to the Far East, where he's trained in the martial arts by Henri Ducard
+      , a member of the mysterious League of Shadows. When Ducard reveals the League's true purpose -- the
+      complete destruction of Gotham City -- Wayne returns to Gotham intent on cleaning up the city without resorting to
+      murder. With the help of Alfred, his loyal butler, and Lucius Fox, a tech expert at
+      Wayne Enterprises, Batman is born.</p>
+    </div>
+    <div class="column">
+      <img src="https://images.moviesanywhere.com/bd47f9b7d090170d79b3085804075d41/c6140695-a35f-46e2-adb7-45ed829fc0c0.jpg" alt="The Dark Knight" width="100%">
+      <h3>The Dark Knight</h3>
+      <p>With the help of allies Lt. Jim Gordon and DA Harvey Dent, Batman has
+      been able to keep a tight lid on crime in Gotham City. But when a vile young criminal calling himself the Joker suddenly throws the town into chaos, the caped Crusader begins to tread a fine line between heroism and
+      vigilantism.</p>
+    </div>
+    <div class="column">
+      <img src="https://soundvapors.com/wp-content/uploads/2020/06/The-Dark-Knight-Rises-683x1024.jpg" alt="The Dark Knight Rises" width="100%">
+      <h3>The Dark Knight Rises</h3>
+      <p>It has been eight years since Batman, in collusion with Commissioner Gordon, vanished
+      into the night. Assuming responsibility for the death of Harvey Dent, Batman sacrificed everything for what he and
+      Gordon hoped would be the greater good. However, the arrival of a cunning cat burglar and a merciless
+      terrorist named Bane force Batman out of exile and into a battle he may not be able to win.</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
